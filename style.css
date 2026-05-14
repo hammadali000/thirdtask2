@@ -52,8 +52,8 @@ font-size: 27px;
 display: flex;
 align-items: start;
 justify-content: center;
-    padding-top: 50px;
-gap: 15px;
+max-width: 90vw;
+margin: 100px auto;
 }
 
 .cardmain{
@@ -75,7 +75,7 @@ gap: 10px;
 }
 
 .lorem{
-    font-size: 30px;
+    font-size: 20px;
 }
 #lorem{
     margin-left: 25px;
@@ -97,19 +97,20 @@ clip-path: polygon(
     0% 100%  
   );
   margin-left: 5px;
-margin-top: 40px;
- padding-bottom: 70px;
 }
 .footer{
-margin-top: 0px;
+max-width: 90vw;
+margin: auto;
 display: flex;
+flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: start;
+padding: 40px 30px;
 
 }
-.footer h1{
+.footer strong{
 font-family: 'Bebas Neue', sans-serif;
 font-weight: 900;
 color: white;
-margin-top: 50px;
+font-size: 40px;
 }
