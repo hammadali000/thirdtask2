@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: #8B1A1A ;
+    clip-path: polygon(
+    0% 0%,   
+    100% 0%, 
+    100% 90%,
+    92% 100%,
+    0% 100%  
+  );
+  margin-left: 5px;
+}
+.main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 85vw;
+    height: fit-content;
+    margin: auto;
+    gap: 50px;
+    padding: 50px 0 150px 0 ;
+}
+
+.text h1{
+    color: white;
+      font-family: 'Bebas Neue', sans-serif;
+font-weight: 900;
+letter-spacing: 2px;
+font-size: 95px;
+}
+.text h3{
+    color: black;
+     font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 48px;
+}
+
+.para{ 
+gap: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+         font-family: 'Montserrat', sans-serif;
+font-size: 27px;
+}
+.mid{
+display: flex;
+align-items: start;
+justify-content: center;
+    padding-top: 50px;
+gap: 15px;
+}
+
+.cardmain{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.bestclubs{
+font-family: 'Montserrat', sans-serif;
+display: flex;
+justify-content: start;
+align-items: center;
+gap: 10px;
+}
+
+.bestclubs h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.lorem{
+    font-size: 30px;
+}
+#lorem{
+    margin-left: 25px;
+} 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+background-color: #8B1A1A;
+clip-path: polygon(
+    0% 0%,   
+    100% 0%, 
+    100% 70%,
+    95% 100%,
+    0% 100%  
+  );
+  margin-left: 5px;
+margin-top: 40px;
+ padding-bottom: 70px;
+}
+.footer{
+margin-top: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.footer h1{
+font-family: 'Bebas Neue', sans-serif;
+font-weight: 900;
+color: white;
+margin-top: 50px;
+}
